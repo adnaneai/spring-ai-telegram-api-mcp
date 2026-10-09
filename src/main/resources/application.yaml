@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: ChatClient
+
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: llama3.2:3b
+    mcp:
+      client:
+        streamable-http:
+          connections.mcphr.url: http://localhost:8081/mcp
+
+server:
+  port: 8080
+
+telegram:
+  api:
+    key: 8835014035:AAEgFMKmlUrO5IcFsRVpFj9VUW3T0FIn2Tg

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: mcp-server
+  ai:
+    mcp:
+      server:
+        protocol: streamable
+        name: mcp-hr
+server:
+  port: 8081
