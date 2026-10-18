@@ -6,7 +6,7 @@ spring:
     ollama:
       base-url: http://localhost:11434
       chat:
-        model: llama3.2:3b
+        model: qwen3-vl:4b
     mcp:
       client:
         streamable-http:
@@ -17,4 +17,4 @@ server:
 
 telegram:
   api:
-    key: 8835014035:AAEgFMKmlUrO5IcFsRVpFj9VUW3T0FIn2Tg
+    key: ${API_TELEGRAM}
